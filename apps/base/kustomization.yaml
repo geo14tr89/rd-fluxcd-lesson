@@ -6,5 +6,6 @@ resources:
   - service.yaml
   - ingress.yaml
 
-commonLabels:
-  app: course-app
+labels:
+  - pairs:
+      app: course-app
